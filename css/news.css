@@ -1,0 +1,133 @@
+body , div {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: "Teko", 'Oswald', sans-serif;
+    font-size: 4rem;
+}
+.current {
+    background-color: #333;
+    border-bottom: 1px solid #fff;
+}
+.nav-item a {
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.navbar{
+    padding: 20px; 
+    opacity: 0.8;
+    position: static;
+    width: 100%;
+    background-color: #000;
+    padding: 0 0 0 20px;
+}
+.heading {
+    font-family:"Teko", Oswald, sans-serif;
+    position: absolute;
+    color: #fff;
+    padding: 15% 15%;
+}
+.heading h1 {
+    font-size: 4rem;
+}
+.heading .btn {
+    width: 170px;
+    font-size: 1.5rem;
+}
+.carousel-item {
+    height: 800px;
+}
+.news {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.news h1 {
+    padding-top: 70px;
+    text-align: center;
+}
+/* CARD section */
+.card img {
+    height: 200px;
+}
+.news .container {
+    padding: 5% 0 10% ;
+}
+.card {
+    margin: 0 40px;
+}
+.card p {
+    font-family: "Roboto", sans-serif;
+    color: #707070;
+}
+.card-title {
+    font-family: "Teko", Oswald, sans-serif;
+    font-size: 2rem;
+}
+.card img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.card-text {
+    font-size: 1.2rem;
+}
+/* footer section */
+.footer {
+    background-image: url("https://lite.pubg.com/wp-content/uploads/2018/12/office-channel-img01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+.footer h4 {
+    font-family: "Teko", 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+.footer .fab {
+    cursor: pointer;
+    color: #ECA800;
+    background-color: #000;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+}
+.fa-instagram {
+    padding: 10px;
+}
+.fa-facebook-f {
+    padding: 15px 17px;
+    font-size: 1.5rem;
+}
+.fa-youtube {
+    padding: 10px;
+}
+.footer i:hover {
+    color: #000;
+    background-color: #ECA800;
+    font-weight: bold;
+}
+.footer-end {
+    background-color: #333;
+    padding: 50px 0;
+}
+.footer-end img{
+    width: 100px;
+}
+.end {
+    color: #707070;
+    text-align: center;
+    margin-bottom: 0;
+}
+.card-group .animate__fadeInLeft  {
+    animation-delay: 0s;
+}
+.card-group .animate__fadeInUp {
+    animation-delay: 2s;
+}
+.card-group .animate__fadeInRight {
+    animation-delay: 1s;
+}

@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F0F3F5;
+}
+
+.navbar {
+    opacity: 0.6;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    padding: 0 0 0 20px;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Teko", Oswald, sans-serif;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+.hvr-sweep-to-right {
+    transition-duration: 1s;
+}
+.heading {
+    padding: 150px 40px 20px;
+    border-bottom: 1px solid black;
+}
+.img {
+    padding: 50px;
+    text-align: center;
+}
+
+.reddit {
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+}
+.reddit .fab {
+    margin-left: 20px;
+    opacity: 0.5;
+}
+.reddit .fab:hover {
+    opacity: 1;
+    color: black;
+    cursor: pointer;
+}
+footer {
+    background-color: #161616;
+    padding: 40px;
+    color: #707070;
+    text-align: center;
+}
+footer a {
+    padding: 0 30px;
+    text-decoration: none;
+    color: #707070;
+    border-right: 1px solid #707070;
+}
+.help:hover {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-item .events {
+    background-color: #333;
+    border-bottom: 1px solid #fff;
+}
+.nav-item a {
+    padding: 20px;
+}
